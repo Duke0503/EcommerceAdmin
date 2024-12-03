@@ -67,7 +67,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
           </div>
         ))}
       </div>
-      <CldUploadWidget onUpload={onUpload} uploadPreset="uiyqivqw">
+      <CldUploadWidget onUpload={onUpload} uploadPreset="next_cloudinary_app">
         {({ open }) => {
           const onClick = () => {
             open();

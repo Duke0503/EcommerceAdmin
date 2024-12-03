@@ -13,7 +13,7 @@ export default async function HomePage() {
   const products = await getProducts({ isFeatured: true });
 
   // Fetch billboard
-  const billboard = await getBillboard("5297187f-d293-45dc-9c72-e60fe2e29ca9");
+  const billboard = await getBillboard("bef3665a-e9c7-4bf6-8c59-c79cf3231cf7");
 
   return (
     <Container>
